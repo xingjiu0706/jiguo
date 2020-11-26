@@ -1,0 +1,95 @@
+article div h2 {
+  text-align: center;
+  font-size: 39px;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+.fu {
+  width: 100%;
+}
+.fu div {
+  margin-left: 36%;
+}
+.fu div a {
+  font-size: 30px;
+  width: 169px;
+  display: block;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  height: 45px;
+}
+.fu div a:first-of-type {
+  margin-right: 100px;
+}
+.fu div a:hover {
+  border-bottom: 4px solid red;
+}
+.ye {
+  background-color: #F7F7F7;
+  width: 100%;
+}
+.box {
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.box1 {
+  width: 1200px;
+  position: relative;
+  float: left;
+}
+.tybg {
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.tybg2 {
+  width: 1000px;
+  margin: 0 auto;
+  margin-left: 43%;
+}
+.tybg2:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.tybg2 span {
+  border-bottom: 2px solid red;
+  width: 100px;
+  float: left;
+  text-align: center;
+  margin-left: 20px;
+}
+.box2 {
+  background: whitesmoke;
+}
+.box22 {
+  margin: 0 auto;
+  width: 1000px;
+}
+.box22:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.box221 {
+  width: 700px;
+  float: left;
+}
+.box222 {
+  width: 270px;
+  float: right;
+}
+.bo0 {
+  margin-top: 10px;
+}
+.box221-1 {
+  width: 700px;
+  height: 297px;
+  background: url(../img/re1.jpg) no-repeat;
+  background-size: cover;
+}
+.box221-1 p {
+  font-size: 15px;
+}

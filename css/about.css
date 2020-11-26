@@ -1,0 +1,87 @@
+.tybg {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tybg2 {
+    width: 1000px;
+    margin: 0 auto;
+    margin-left: 43%;
+}
+
+.tybg2:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tybg2 span {
+    border-bottom: 2px solid red;
+    width: 100px;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.box22 {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.box22:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box221 {
+    width: 700px;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.box222 {
+    width: 270px;
+    float: left;
+}
+
+.box222 ul .tex1 {
+    margin-left: 20px;
+}
+
+.box222 ul li {
+    margin-right: 20px;
+}
+
+.box221 ul .tex1 {
+    margin-left: 20px;
+}
+
+.box221 ul li {
+    margin-right: 20px;
+}
+
+.bo0 {
+    margin-top: 10px;
+}
+
+.tex {
+    margin-left: 40px;
+}
+
+.box2212 {
+    display: none;
+}
+
+.box2212 {
+    float: right;
+    width: 700px;
+    margin-top: 15px;
+}
+
+.box2212 ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}

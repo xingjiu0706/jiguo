@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导购</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/guid_new.css">
+    <script src="../js/doT.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_top clearfix">
+            <div class="header_left">
+                <img src="../img/logonew.png">
+                <ul>
+                    <li class="lis"><a href="">首页</a></li>
+                    <li class="lis"><a href="" >酷玩</a></li>
+                    <li class="lis"><a href="" style="color:#ff5339;">导购</a></li>
+                    <li class="lis"><a href="">试用</a></li>
+                    <li class="lis"><a href="">报告</a></li>
+                </ul>
+            </div>
+            <div class="header_right">
+                <img src="../img/search.png">
+                <button class="but">注册</button>
+            </div>
+        </div>
+        <div class="header_bottom"></div>
+    </header>
+    <!-- 标题 -->
+    <p class="title">导购清单</p>
+    <nav class="nav clearfix">
+        <p class="clearfix">
+            <a href="" class="light">最新</a>
+            <a href="./guid_hot.html">最热</a>
+        </p>
+    </nav>
+    <!-- 正文 -->
+    <ul id="lis"></ul>
+    <ul id="list" class="clearfix">
+
+    </ul>
+    <div class="more" id="more">
+        <img src="../img/loading-icon.gif" id="yuan">
+        <img src="../img/more.png" id="xia">
+        <span href="">点击加载更多</span>
+    </div>
+    <!-- 尾部 -->
+
+    <footer class="footer">
+        <div class="footer_top clearfix">
+            <img src="../img/code.png" class="code">
+            <div class="footer_left">
+                <img src="../img/logoImg.jpg" alt="">
+                <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+                <p>微信添加“JguoJguo”获取我们的服务。</p>
+            </div>
+            <dl>
+                <dt>免费试用</dt>
+                <dd><a href="">试用流程</a></dd>
+                <dd><a href="">如何提高成功率</a></dd>
+            </dl>
+            <dl>
+                <dt>友情链接</dt>
+                <dd>智东西</dd>
+                <dd>搜狐IT</dd>
+                <dd>搜狐数码</dd>
+                <dd>凤凰数码</dd>
+                <dd>泡泡网</dd>
+                <dd>ZUK社区</dd>
+                <dd>极客公园</dd>
+                <dd>果库</dd>
+            </dl>
+            <dl class="dl_especially">
+                <dd>WEIBUSI</dd>
+                <dd>腾讯科技</dd>
+                <dd>凤凰科技</dd>
+                <dd>PConline</dd>
+                <dd>3W咖啡</dd>
+                <dd>亿觅emie</dd>
+                <dd>易迅易启玩</dd>
+            </dl>
+            <dl>
+                <dt>购买攻略</dt>
+                <dd>美亚海淘教程</dd>
+                <dd>日亚海淘教程</dd>
+                <dd>海淘转运攻略</dd>
+                <dd>kickstarter 众筹购买攻略</dd>
+                <dd>indiegogo 众筹购买攻略</dd>
+            </dl>
+            <dl>
+                <dt>厂商合作</dt>
+                <dd>关于极果</dd>
+                <dd>联系我们</dd>
+                <dd>向务合作:BD@jiguo.com</dd>
+                <dd>CEO邮馆:CEO@jiguo.com</dd>
+            </dl>
+        </div>
+        <div class="footer_bot">
+            <span>@2016 极果版权所有</span>
+        </div>
+    </footer>
+</body>
+<script src="../js/jquery-3.5.1.js"></script>
+<!-- 模板 -->
+<script id="list_template" type="text/x-dot-template">
+    {{~ it:value:index}}
+    <li>
+        <img src={{=value.img}} alt="">
+        <div class="box">
+            <p>{{=value.text}}</p>
+            <div class="like clearfix">
+                <p>
+                    <img src="../img/xin.png">
+                    <span>{{=value.like}}</span>
+                    <img src="../img/zan.png">
+                    <span>{{=value.words}}</span>
+                </p>
+            </div>
+            <img src="../img/listbg.jpg" class="but">
+        </div>
+    </li>
+    {{~ }}
+</script>
+<script src="../js/guid_new.js"></script>
+<script src="../js/public.js"></script>
+
+</html>

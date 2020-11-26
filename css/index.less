@@ -1,0 +1,383 @@
+@keyframes Scale {
+    0% {
+      transform: translate(800px, -800px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  @keyframes opac{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+  
+  header .header .search img:hover {
+    transform: scale(1.5, 1.5);
+  }
+  .banner_ {
+    width: 100%;
+    height: 300px;
+    background: url(../img/original.jpg) no-repeat -300px 0px;
+  }
+  .hide{
+    width: 277px;
+    height: 270px;
+    background-color: #ffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-left: 15px;
+    z-index: 9999;
+    display: none;
+    h2{
+      padding-top: 10px;
+    }
+    img{
+      margin-left: 248px;
+      margin-top: -28px;
+      display: block;
+    }
+    input{
+      margin-top: 30px;
+      width: 260px;
+      height: 33px;
+      border: 1px solid;
+      outline: medium;
+    }
+    .box1{
+      input:nth-of-type(1){
+        width: 15px;
+      }
+      span{
+        display: block;
+        margin-top: -27px;
+        margin-left: 24px;
+      }
+      p{
+        font-size: 18px;
+        border-radius: 15px;
+        background-color: red;
+        margin-left: 133px;
+        margin-right: 25px;
+        height: 30px;
+        text-align: center;
+        margin-top: -27px;
+        line-height: 32px;
+        color: #ccc;
+      }
+    }
+    .fu{
+      p{
+        padding-top: 10px;
+      }
+      p:nth-of-type(1){
+        float: left;
+      }
+      p:nth-of-type(2){
+        float: right;
+      }
+    }
+}
+  .banner_ .inner_ {
+    width: 1000px;
+    height: 254px;
+    padding-top: 46px;
+    text-align: right;
+    animation: Scale 1s;
+    margin: 0 auto;
+  }
+  .banner_ .inner_ h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  .banner_ .inner_ .label_ {
+    margin-bottom: 22px;
+  }
+  .banner_ .inner_ .label_ span {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 14px;
+    border-radius: 2px;
+    color: white;
+  }
+  .banner_ .inner_ .time_ {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .banner_ .inner_ .btn_ {
+    display: inline-block;
+    width: 240px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: white;
+    background-color: #fe5341;
+    font-size: 24px;
+  }
+  
+  header,main,footer{
+    width: 100%;
+  }
+  .inner{
+    width: 1002px;
+    margin: 0 auto;
+  }
+  main{
+    overflow: hidden;
+  }
+  main .hot-box{
+    width: 100%;
+    height: 380px;
+  }
+  main .hot-box .inner{
+    height: 380px;
+  }
+  main .inner .title{
+    height: 70px;
+    line-height: 70px;
+    font-size: 24px;
+  }
+  main .hot-box .inner .slide-box{
+    height: 288px;
+    width: 100%;
+    position: relative;
+  }
+  main .hot-box .inner .slide-box .prev,
+  main .hot-box .inner .slide-box .next{
+    display: block;
+    width: 37px;
+    height: 78px;
+    position: absolute;
+    top: 120px;
+  }
+  main .hot-box .inner .slide-box .prev{
+    background: url(../img/prev.png);
+    left: -60px;
+  }
+  main .hot-box .inner .slide-box .next{
+    background: url(../img/next.png);
+    right: -60px;
+  }
+  main .hot-box .inner .slide-box .hot{
+    width: 100%;
+    height: 288px;
+    overflow: hidden;
+  }
+  main .hot-box .inner .slide-box ul{
+    width: 3006px;
+    height: 288px;
+    position: relative;
+  }
+  main .hot-box .inner .slide-box ul li{
+    width: 1002px;
+    height: 288px;
+    float: left;
+  }
+  main .report-box{
+    width: 100%;
+    height: 590px;
+    background-color: #dddddd;
+  }
+  main .report-box .inner{
+    height: 590px;
+  }
+  main .inner{
+    position: relative;
+  }
+  main .inner .more{
+    position: absolute;
+    top: 28px;
+    right: 18px;
+    color: red;
+  }
+  main .inner .icon{
+    position: absolute;
+    top: 28px;
+    right: 0;
+    color: red;
+    cursor: pointer;
+  }
+  main .inner #more_img{
+    width: 12px;
+    height: 10px;
+    border-radius: 0px;
+  }
+  main .guide{
+    height: 380px;
+  }
+  main .guide .inner{
+    height: 380px;
+  }
+  main .fx-box{
+    overflow: hidden;
+    width: 100%;
+    background-color: #dddddd;
+  }
+  .con{
+    width: 220px;
+    height: 285px;
+    display: block;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-right: 40px;
+  }
+  .con img{
+    width: 220px;
+    height: 135px;
+  }
+  .con .top-tip{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px 8px;
+    border-radius: 0 0 0 6px;
+    z-index: 10;
+  }
+  .con .sf{
+    background-color: red;
+    color: white;
+  }
+  .con .ty{
+    background-color: #f7f2ca;
+    color: #cdc295;
+  }
+  .con .name{
+    padding: 8px;
+    text-align: center;
+    color: #000000;
+  }
+  .con img:hover{
+    animation: opac 2s linear infinite;
+  }
+  .con .label{
+    text-align: center;
+  }
+  .con .label span{
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .con .red{
+    color: red;
+  }
+  .con .label .red{
+    color: red;
+    border: 1px solid red;
+  }
+  .con .label .green{
+    color: green;
+    border: 1px solid green;
+  }
+  .con .green{
+    color: green;
+  }
+  .con .sq{
+    padding: 5px 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  .con .current{
+    text-align: center;
+    font-size: 16px;
+  }
+  .common ul{
+    overflow: hidden;
+  }
+  .common ul li{
+    width: 222px;
+    height: 233px;
+    float: left;
+    margin: 0 34px 20px 0;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+  .common img{
+    width: 100%;
+    height: 130px;
+    border-radius: 6px;
+  }
+  .common ul li:nth-child(4n+4){
+    margin-right: 0;
+  }
+  .common ul li .info{
+    padding: 10px;
+    height: 98px;
+  }
+  .common ul li .info .name{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .common ul li .info .name_1{
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: gray;
+  }
+  .common ul li .info .fix .nick{
+    font-size: 12px;
+    color: gray;
+    padding-top: 5px;
+  }
+  .common ul li .info .left{
+    float: left;
+  }
+  .common ul li .info .price{
+    color: red;
+  }
+  .common ul li .info .right{
+    float: right;
+  }
+  .common ul li .info .right span{
+    padding-left: 15px;
+    color: #999;
+  }
+  .common ul li .info .right .xin{
+    background: url(../img/xin.png) no-repeat left center;
+  }
+  .common ul li .info .right .look{
+    background: url(../img/reply.png) no-repeat left center;
+  }
+  .common .jia_ {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 54px;
+  }
+  .common #jia_img{
+    width: 20px;
+    height: 15px;
+  }
+  .common .jia_ span {
+    color: #e5435b;
+    cursor: pointer;
+  }
+  #denglu{
+    cursor:pointer;
+  }
+// 锚点跳转
+#anchor{
+  width: 80px;
+  font-size: 30px;
+  height: auto;
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  display: none;
+}

@@ -1,0 +1,80 @@
+.article {
+  background-color: #f7f7f7;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+.article .art {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 147px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.article .art .art_title {
+  width: 50%;
+  padding-left: 10px;
+  border-left: 4px solid #fe5341;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 102px;
+}
+.article .art input {
+  border: none;
+  outline: medium;
+}
+.article .art .inputs {
+  display: block;
+  margin: 0 auto;
+  width: 385px;
+  height: 50px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  color: #a7a7a7;
+  margin-bottom: 27px;
+  padding-left: 15px;
+}
+.article .art #but {
+  background-color: #fe5341;
+  color: #ffffff;
+  padding-left: 0;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  border-radius: 5px;
+}
+.article .art .in {
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+.article .art .in .inp {
+  width: 243px;
+  height: 50px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  color: #a7a7a7;
+  margin-bottom: 27px;
+  padding-left: 15px;
+}
+.article .art .in .xiaoyan {
+  float: right;
+  width: 130px;
+  height: 50px;
+}
+.article .art .in #yanzheng {
+  float: right;
+  width: 130px;
+  height: 50px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  border: 1px solid #a5a5a5;
+  color: #a5a5a5;
+}

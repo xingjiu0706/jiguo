@@ -1,0 +1,174 @@
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 39px;
+  color: #000000;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.nav {
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+}
+.nav p {
+  width: 330px;
+  margin: 0 auto;
+}
+.nav p a {
+  display: block;
+  float: left;
+  width: 165px;
+  height: 35px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 17px;
+  color: #a4a3a1;
+}
+.nav_s {
+  height: 50px;
+  text-align: center;
+}
+.nav_s span {
+  font-size: 17px;
+  width: 165px;
+  text-align: center;
+  display: inline-block;
+  line-height: 50px;
+  color: #a3aab0;
+}
+.art {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.art #list {
+  width: 1010px;
+  margin: 0 auto;
+}
+.art #list li {
+  width: 220px;
+  height: 286px;
+  float: left;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  margin: 15px;
+  position: relative;
+}
+.art #list li img {
+  height: 130px;
+}
+.art #list li .show {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 40px;
+  height: 23px;
+  background-color: #ff5732;
+  text-align: center;
+  color: #ffffff;
+  line-height: 23px;
+  border-radius: 5px;
+}
+.art #list li p:nth-of-type(1) {
+  font-size: 16px;
+  text-align: center;
+  height: 60px;
+}
+.art #list li .number {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.art #list li .number span {
+  width: 48px;
+  height: 23px;
+  font-size: 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+}
+.art #list li p:nth-of-type(2) {
+  font-size: 12px;
+  color: #ff4840;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.art #list li p:nth-of-type(3) {
+  font-size: 12px;
+  color: #cfcfcf;
+  text-align: center;
+}
+.art #lis {
+  width: 1010px;
+  margin: 0 auto;
+}
+.art #lis li {
+  width: 220px;
+  height: 286px;
+  float: left;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  margin: 15px;
+  position: relative;
+}
+.art #lis li img {
+  height: 130px;
+}
+.art #lis li .show {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 40px;
+  height: 23px;
+  background-color: #ff5732;
+  text-align: center;
+  color: #ffffff;
+  line-height: 23px;
+  border-radius: 5px;
+}
+.art #lis li p:nth-of-type(1) {
+  font-size: 16px;
+  text-align: center;
+  height: 60px;
+}
+.art #lis li .number {
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.art #lis li .number span {
+  width: 48px;
+  height: 23px;
+  font-size: 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+}
+.art #lis li p:nth-of-type(2) {
+  font-size: 12px;
+  color: #ff4840;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.art #lis li p:nth-of-type(3) {
+  font-size: 12px;
+  color: #cfcfcf;
+  text-align: center;
+}
+.more {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 51px;
+  text-align: center;
+}
+.more a {
+  font-size: 17px;
+  color: #ff4c3b;
+}
+.light {
+  border-bottom: 4px solid #ff5339;
+  color: #ff5339;
+}
+#yuan {
+  display: none;
+}
+.black {
+  color: #000000;
+}
